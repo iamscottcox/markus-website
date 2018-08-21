@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+}
+
+html {
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 1.5em;
+    padding: 1em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background: white;
+}
+
+header > * {
+    flex: 1 1 0;
+}
+
+header h3 {
+    width: 75%
+}
+
+header nav {
+    width: 25%;
+    text-align: right;
+}
+
+header nav a {
+    padding: 1em;
+}
+
+#about {
+    min-height: 500px;
+}
+
+#about p {
+    padding-bottom: 1em;
+}
+
+#about .buffer {
+    width: 25%;
+}
+
+#about .col-left {
+    width: 25%;
+    padding: 2em 10em 1em 1em;
+}
+
+#about .col-left h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#about .col-right {
+    width: 50%;
+    background-image: url('images/books.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about .col-left, #about .col-right {
+    min-height: 500px;
+}
+
+#services {
+    position: relative;
+    min-height: 75vh;
+    background-image: url('images/furniture.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#services .content {
+    height: 75vh;
+}
+
+#services .flex-container {
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.content {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.card {
+    background: white;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    padding: 2em;
+}
+
+.jumbotron {
+    padding-top: 1em;
+    font-size: 2.5em;
+    height: 100vh;
+    align-items: center;
+    background-image: url('images/empty-room.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron p {
+    font-size: 0.75em;
+}
+
+.logo {
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+}
